@@ -1,4 +1,4 @@
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenAI } from '@google/genai';
 import dotenv from 'dotenv';
 
 // Garantir que dotenv foi carregado
@@ -19,8 +19,7 @@ class GeminiService {
     }
     
     try {
-      this.genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-      this.model = this.genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+      this.ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
       console.log('✅ GeminiService inicializado com sucesso');
     } catch (error) {
       console.error('❌ Erro ao inicializar Gemini:', error.message);
@@ -34,17 +33,18 @@ class GeminiService {
       
       const prompt = this.buildPrompt(question, context);
       
-      const result = await this.model.generateContent(prompt);
-      const response = await result.response;
-      const text = response.text();
+      const response = await this.ai.models.generateContent({
+        model: 'gemini-2.5-flash',
+        contents: prompt
+      });
       
       console.log('✅ Resposta gerada com sucesso');
-      return text.trim();
+      return response.text.trim();
     } catch (error) {
       console.error('❌ Erro no Gemini:', error);
       
       // Verificar se é erro de API key
-      if (error.message?.includes('API_KEY')) {
+      if (error.message?.includes('API_KEY') || error.message?.includes('403')) {
         throw new Error('Chave da API Gemini inválida ou expirada');
       }
       
