@@ -60,6 +60,7 @@ BANCO DE DADOS:
 - MySQL
 - Oracle
 - MongoDB
+- SQL Server
 - Queries avançadas e otimização
 
 MENSAGERIA & ARQUITETURA:
@@ -99,7 +100,17 @@ METODOLOGIAS:
   experience: `
 EXPERIÊNCIA PROFISSIONAL:
 
-Desenvolvedor de Software – TerceirizeMais | Janeiro 2024 – Presente
+Analista de Business Intelligence – Sicredi | Dezembro 2025 – Presente
+- Desenvolvimento de dashboards para gestão com Power BI
+- Análise de dados e geração de insights para tomada de decisões estratégicas
+- Otimização de processos internos através de automação e integração de dados
+- Colaboração com equipes multidisciplinares para implementação de soluções de BI
+- Utilização de SQL avançado para consultas e manipulação de dados em bancos relacionais
+- Monitoramento de performance e manutenção de sistemas de BI
+- Desenvolvimento de sistemas de integração de dados utilizando APIs e ferramentas de ETL
+
+
+Desenvolvedor de Software – TerceirizeMais | Janeiro 2024 – Dezembro 2025
 - Desenvolvimento de soluções escaláveis em Node.js e React
 - Implementação de automações e robôs com Puppeteer, otimizando processos internos
 - Desenvolvimento de APIs RESTful e microserviços
@@ -134,10 +145,20 @@ FORMAÇÃO:
 - [PREENCHER: outras formações se houver]
 
 CURSOS E CERTIFICAÇÕES:
-- [PREENCHER: cursos específicos que você fez]
-- [PREENCHER: certificações obtidas]
-- [PREENCHER: bootcamps ou treinamentos]
-- [PREENCHER: workshops ou eventos]
+
+Workshops e Eventos:
+- TDC 2025 São Paulo (17–19/09/2025) — Participação completa no evento, 24h de conteúdo técnico no ProMagno, SP.
+- Workshop: Do Requisito à Arquitetura: Construindo um DDA Completo com C4 e Patterns Assíncronos (18/09/2025, 1,5h) — Design de sistemas orientado a domínio usando modelo C4 e padrões assíncronos.
+- Workshop: Crie uma Aplicação Copilot Personalizada usando o Azure AI Foundry (17/09/2025, 1,5h) — Desenvolvimento de Copilots customizados com Azure AI.
+- Workshop: Criando um Serviço MCP com .NET — Sua Primeira API Pronta para Agentes de IA (18/09/2025, 1,5h) — Construção de APIs compatíveis com o protocolo MCP para integração com agentes de IA.
+- Workshop: Tech Leadership Simulation: Decisões Estratégicas em Ambientes Complexos (19/09/2025, 1,5h) — Simulação de tomada de decisão técnica e liderança em cenários de alta pressão.
+- Workshop: Machine Learning Diretamente no Navegador com TensorFlow.js (19/09/2025, 1,5h) — Implementação de modelos de ML no frontend usando TensorFlow.js.
+- Workshop: Speech-to-Text + IA com Amazon Bedrock e Deepgram (17/09/2025, 1,5h) — Criação de assistente de voz integrando transcrição e LLMs via AWS.
+
+Mentorias:
+- Mentoria: Fundamentos e Aplicações de Agentes de IA (17/09/2025, ~50min) — Conceitos base e casos práticos de agentes autônomos.
+- Mentoria: Do Código à Estratégia — Como Pensar como Arquiteto de Software (18/09/2025, ~50min) — Transição de mentalidade de dev para arquiteto antes de ter o cargo.
+- Mentoria: Arquitetura é para Você? Planeje-se para se Tornar Arquiteto de Soluções (18/09/2025, ~50min) — Roadmap prático para a carreira de arquitetura de software.
   `,
 
   projects: `
@@ -266,7 +287,7 @@ DISPONIBILIDADE:
 
   about: `
 SOBRE MIM:
-Arthur Burkhard Ritzel é um desenvolvedor de software de 20 anos, brasileiro, baseado em 
+Arthur Burkhard Ritzel é um desenvolvedor de software de 21 anos, brasileiro, baseado em 
 Toledo, PR. Atualmente está cursando Engenharia de Software no Biopark (2023-2026) e 
 trabalha como Desenvolvedor de Software na TerceirizeMais desde janeiro de 2024.
 
@@ -307,8 +328,8 @@ COMPETÊNCIAS DE LIDERANÇA:
   achievements: `
 CONQUISTAS E RECONHECIMENTOS:
 - Desenvolvedor de Software na TerceirizeMais (atual)
-- Presidente da Liga Acadêmica de Engenharia de Software e ADS – Biopark
-- Monitor de Lógica de Programação – Biopark Educação
+- Presidente da Liga Acadêmica de Engenharia de Software e ADS – Faculdade Donaduzzi
+- Monitor de Lógica de Programação – Faculdade Donaduzzi
 - 17+ projetos desenvolvidos em diferentes tecnologias
 - Pacote NPM publicado e disponível publicamente (npx aritzel)
 - 2+ anos de experiência como freelancer ativo
