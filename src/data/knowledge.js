@@ -3,7 +3,7 @@ const knowledge = {
 Nome: Arthur Burkhard Ritzel
 Localização: Toledo, PR, Brasil
 Profissão: Desenvolvedor de Software / Desenvolvedor Full Stack
-Idade: 20 anos
+Idade: 21 anos
 Nacionalidade: Brasileiro
 Idiomas: 
 - Português (nativo)
@@ -141,8 +141,10 @@ Técnico de T.I – ON3 Imobiliária | Janeiro 2023 – Novembro 2023
 
   education: `
 FORMAÇÃO:
-- Engenharia de Software - Biopark - Conclusão 2026
-- [PREENCHER: outras formações se houver]
+- Pos graduacao em especializacao de sistemas inteligentes IA IoT Engenharia de software - Faculdade donaduzzi - conclusao em 08/2027
+- Engenharia de Software - Faculdade donaduzzi - Conclusão 2026
+- Monitor em desenvolvimento desktop - logica de programacao em C
+- monitor em orientação a objetos - Java
 
 CURSOS E CERTIFICAÇÕES:
 
